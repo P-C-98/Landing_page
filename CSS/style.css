@@ -106,10 +106,10 @@ body {
 
 .items {
     width: 250px;
-    height: 250px;
+    height: auto;
     border-radius: 30px;
     border-color: #101010;
-    border-style:solid;
+    border-style: solid;
 }
 
 .items img {
@@ -123,10 +123,11 @@ figcaption {
 }
 
 .complete_box {
+    width: 100%;
     margin-top: 72px;
     margin-bottom: 36px;
     background-color: lightgray;
-    padding: 18px
+    padding: 24px;
 }
 
 .inner_quote_box, .author{
@@ -136,12 +137,12 @@ figcaption {
     font-size: 24px;
     word-spacing: 3px;
     margin: 0 auto;
-    display: flex;
     align-items: center;
 }
 
 .author {
     font-weight: 550;
+    text-align: right;
 }
 
 .cta_container {
